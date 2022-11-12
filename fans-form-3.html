@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlético de Madrid | Fans</title>
+    <link rel="shortcut icon" type="image/png" href="img/atm-logo.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/jlf5jgz.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js"></script>
+</head> 
+<body>
+<!-- NAVBAR -->
+<nav>
+    <div class="navbar">
+        <ul class="nav-links">
+            <div id="nav-left">
+                <li class="link-left ">
+                    <a href="#">First Team</a>
+                        <ul class="drop-menu">
+                            <div class="drop-width">
+                                <li><a href="squad.html">Squad & Statistics</a></li>
+                                <li><a href="standings.html">Standings</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                                <li><a href="photos.html">Photos</a></li>
+                            </div>
+                        </ul>
+                </li>
+                <li class="link-left">
+                    <a href="#">Academy</a>
+                    <ul class="drop-menu-1">
+                        <div class="drop-width">
+                            <li><a href="what-is-academy.html">What is the Academy?</a></li>
+                            <li><a href="intern-train-proj.html">International Training Projects</a></li>
+                        </div>
+                    </ul>
+                </li>
+                            
+                <li class="link-left">
+                    <a href="news.html">News</a>
+                </li>
+            </div>
+            <div id="nav-right">
+                <li class="link-right">
+                    <a href="tickets.html">Tickets</a>
+                </li>
+                <li class="link-right active">
+                    <a href="fans.html">Fans</a>
+                </li>
+            </div>
+        </ul>
+    </div>   
+    <div class="nav-logo">
+        <a href="index.html"><img src="img/atm-logo.svg" alt="logo""></a>
+    </div>
+</nav>
+<!-- NAVBAR END -->
+<!-- CONTENT -->
+<div class="content-100vh">
+    <!-- FORM PROGRESS -->
+    <div class="form-progress">
+        <div class="pers-data">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.914" viewBox="0 0 20 14.914">
+                        <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.793,19.2l-6.5-6.5a1,1,0,0,1,0-1.414L1.707,9.87a1,1,0,0,1,1.414,0L7.5,14.249,16.879,4.87a1,1,0,0,1,1.414,0l1.414,1.414a1,1,0,0,1,0,1.414L8.207,19.2A1,1,0,0,1,6.793,19.2Z" transform="translate(0 -4.577)"/>
+                    </svg>
+                </div>
+                <p>Personal Data</p>
+            </div>
+        </div>
+        <div class="family">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.914" viewBox="0 0 20 14.914">
+                        <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.793,19.2l-6.5-6.5a1,1,0,0,1,0-1.414L1.707,9.87a1,1,0,0,1,1.414,0L7.5,14.249,16.879,4.87a1,1,0,0,1,1.414,0l1.414,1.414a1,1,0,0,1,0,1.414L8.207,19.2A1,1,0,0,1,6.793,19.2Z" transform="translate(0 -4.577)"/>
+                    </svg>
+                </div>
+                <p>Family</p>
+            </div>
+        </div>
+        <div class="members-fees">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>3</p>
+                </div>
+                <p>Members fees</p>
+            </div>
+        </div>
+        <div class="confirmation">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>4</p>
+                </div>
+                <p>Confirmation</p>
+            </div>
+        </div>
+    </div>
+    <!-- FORM PROGRESS END -->
+    <!-- PAYMENT -->
+    <form action="fans-form-4.html">
+    <div class="payment">
+        <p class="payment-title">PAYMENT PERIODICITY</p>
+        <form action="">
+            <div class="select-cont">
+                <div class="select">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="7" viewBox="0 0 20 11.435">
+                        <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M19.235,16.193,11.666,8.63a1.423,1.423,0,0,1,0-2.019,1.441,1.441,0,0,1,2.025,0l8.575,8.569a1.427,1.427,0,0,1,.042,1.971L13.7,25.779a1.429,1.429,0,0,1-2.025-2.019Z" transform="translate(26.196 -11.246) rotate(90)" fill="#8a8a8a" opacity="1"/>
+                      </svg>
+                    <select name="pay-period" required id="periodicity">
+                        <option value="" >Periodicity</option>
+                        <option value="trimestral">TRIMESTRAL</option>
+                        <option value="semestral">SEMESTRAL</option>
+                        <option value="anual">ANUAL</option>
+                    </select>
+                </div>
+            </div>
+            <p class="payment-title">PAYMENT METHOD*</p>
+           
+
+            <div class="payment-method">
+                <p id="input-radio-p">
+                    <input type="radio" id="direct-debit-radio" name="payment-method" class="payment-radio" value="direct">
+                    <label for="direct-debit-radio">
+                        <span class="outer"><span class="inner"></span></span>
+                        <span class="input-text">Direct Debit</span>
+                    </label>
+                </p>
+                <p id="input-radio-p">
+                    <input type="radio" required id="collect-on-delivery" name="payment-method" class="payment-radio" value="delivery">
+                    <label for="collect-on-delivery">
+                        <span class="outer"><span class="inner"></span></span>
+                        <span class="input-text">Collect on Delivery</span>
+                    </label>
+                </p>
+        </div>
+        <div class="btns-progress">
+            <a href="fans-form-2.html"><button id="prev">PREVIOUS</button></a>
+            <input id="continue" type="submit" value="PURCHASE">
+        </div>
+        </form>
+    </div>
+    <!-- PAYMENT END -->
+    
+    <!-- PROGRESS BUTTONS -->
+    
+    <!-- PROGRESS BUTTONS END -->
+</form>
+</div>
+<!-- FOOTER -->
+<div class="footer">
+    <div class="footer-left">
+        <a href="https://twitter.com/atleti"><img src="img/icon/twitter.svg" alt="twitter"></a>
+        <a href="https://www.facebook.com/AtleticodeMadrid"><img src="img/icon/facebook.svg" alt="facebook"></a>
+        <a href="https://www.youtube.com/channel/UCuzKFwdh7z2GHcIOX_tXgxA"><img src="img/icon/youtube.svg" alt="youtube"></a>
+        <a href="https://www.instagram.com/atleticodemadrid/"><img src="img/icon/instagram.svg" alt="instagram"></a>
+        <a href="https://www.linkedin.com/company/atleticodemadrid/"><img src="img/icon/linkedin.svg" alt="linkedin"></a>
+        <a href="https://www.tiktok.com/@atleticodemadrid?"><img src="img/icon/tik-tok.svg" alt="tik-tok"></a>
+        <a href="https://en.atleticodemadrid.com/noticias/atletico-de-madrid-provides-an-innovative-whatsapp-assistant-to-the-fans"><img src="img/icon/whatsapp.svg" alt="whatsapp"></a>
+    </div>
+    <div class="footer-right">
+        <p>© Atlético de Madrid 2020. All rights reserved</p>
+    </div>
+</div>
+</body>
+</html>

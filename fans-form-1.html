@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlético de Madrid | Fans</title>
+    <link rel="shortcut icon" type="image/png" href="img/atm-logo.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/jlf5jgz.css">
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+<!-- NAVBAR -->
+    <nav>
+        <div class="navbar">
+            <ul class="nav-links">
+                <div id="nav-left">
+                    <li class="link-left ">
+                        <a href="#">First Team</a>
+                            <ul class="drop-menu">
+                                <div class="drop-width">
+                                    <li><a href="squad.html">Squad & Statistics</a></li>
+                                    <li><a href="standings.html">Standings</a></li>
+                                    <li><a href="calendar.html">Calendar</a></li>
+                                    <li><a href="photos.html">Photos</a></li>
+                                </div>
+                            </ul>
+                    </li>
+                    <li class="link-left">
+                        <a href="#">Academy</a>
+                        <ul class="drop-menu-1">
+                            <div class="drop-width">
+                                <li><a href="what-is-academy.html">What is the Academy?</a></li>
+                                <li><a href="intern-train-proj.html">International Training Projects</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                                
+                    <li class="link-left">
+                        <a href="news.html">News</a>
+                    </li>
+                </div>
+                <div id="nav-right">
+                    <li class="link-right">
+                        <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li class="link-right active">
+                        <a href="fans.html">Fans</a>
+                    </li>
+                </div>
+            </ul>
+        </div>   
+        <div class="nav-logo">
+            <a href="index.html"><img src="img/atm-logo.svg" alt="logo""></a>
+        </div>
+    </nav>
+<!-- NAVBAR END -->
+<a href="#" onclick="history.go(-1)" id="goback">
+    <div class="go-back-new">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 14 25">
+            <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M21.026,18.692,11.76,9.239a1.805,1.805,0,0,1,0-2.523,1.739,1.739,0,0,1,2.479,0l10.5,10.711a1.81,1.81,0,0,1,.051,2.464L14.246,30.675a1.734,1.734,0,0,1-2.479,0,1.805,1.805,0,0,1,0-2.523Z" transform="translate(25.246 31.196) rotate(180)" fill="#202020"/>
+        </svg>
+        <p>back</p>
+    </div>
+</a>
+<!-- CONTENT -->
+<div class="content-100vh-form1">
+    <!-- FORM PROGRESS -->
+    <form action="fans-form-2.html">
+    <div class="form-progress">
+        <div class="pers-data">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>1</p>
+                </div>
+                <p>Personal Data</p>
+            </div>
+        </div>
+        <div class="family">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>2</p>
+                </div>
+                <p>Family</p>
+            </div>
+        </div>
+        <div class="members-fees">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>3</p>
+                </div>
+                <p>Members fees</p>
+            </div>
+        </div>
+        <div class="confirmation">
+            <div class="form-progress-cont">
+                <div class="form-circle">
+                    <p>4</p>
+                </div>
+                <p>Confirmation</p>
+            </div>
+        </div>
+    </div>
+    <!-- FORM PROGRESS END -->
+<section class="fans-form-1">
+    <div class="profile-info">
+        <div class="profile-photo">
+            <input type="file"class="file-input" name="file" id="input-photo">
+            <div class="profile-photo-inner"></div>
+            <div class="profile-photo-img"><img src="img/icon/camera.svg" alt=""></div>
+            
+        </div>
+        <div class="profile-info-cont">
+            <div class="fullname-input required">
+                <input type="text"  name="name" id="Full-name" required placeholder="Full Name">
+            </div>
+            <div class="birthdate-input ">
+                <div class="birth-date-text">
+                    <p>Birth Date</p>
+                </div>
+                <div class="birth-date-inputs required-1">
+                    <div class="bd-day">
+                        <input type="number" name="name" id="bd-day" required placeholder="Day"  min="01" max="31">
+                    </div>
+                    <div class="bd-month">
+                        <select name="birth-month" required id="birth-month">
+                            <option class="">Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select></div>
+                    <div class="bd-year">
+                        <input type="number" required name="name" id="bd-year" placeholder="Year" min="1900" maxlength="4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <p id="complete-address">Complete Address</p>
+    <div class="comp-address">
+        <div class="address required">
+            <input type="text" id="address" required class="input-form-1" placeholder="Address"  maxlength="60">
+        </div>
+        <div class="place">
+            <div class="zip required input-area">
+                <input type="number" id="zip" required class="input-form-1" placeholder="Zip-Code" maxlength="8">
+            </div>
+            <div class="location required input-area">
+                <input type="text" id="location" required class="input-form-1" placeholder="Location"  maxlength="20">
+            </div>
+            <div class="country required input-area">
+                <select required>
+                    <option value="ES">                                 
+                        ES
+                        <img src="flags\4x3\es.svg" alt="es">
+                    </option>
+
+                    <option value="GB">
+                        GB
+                        <img src="flags/4x3/gb.svg" alt="gb">
+                    </option>
+                        
+                    <option value="PT">
+                        PT
+                        <img src="flags/4x3/pt.svg" alt="pt">
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="email ">
+            <div class="email-info required input-area">
+                <input type="email" required id="email" class="input-form-1" placeholder="Email"  maxlength="60">
+            </div>
+            <div class="phone required input-area">
+                <div class="phone-count ">
+                    <select required>
+                        <option value="ES">                                 
+                            +34
+                            <img src="flags\4x3\es.svg" alt="es">
+                        </option>
+
+                        <option value="GB">
+                            +44
+                            <img src="flags/4x3/gb.svg" alt="gb">
+                        </option>
+                            
+                        <option value="PT">
+                            +351
+                            <img src="flags/4x3/pt.svg" alt="pt">
+                        </option>
+                    </select>
+                </div>
+                <div class="phone-numb">
+                    <input type="tel" required id="phone" class="input-form-1" placeholder="Mobile Phone"  maxlength="9">
+                </div>
+            </div>
+        </div>
+        <div class="vat">
+            <div class="vat-number required input-area">
+                <input type="number" required id="vat-number" class="input-form-1" placeholder="Vat Number" maxlength="9">
+            </div>
+            <div class="gen required">
+                <p id="input-radio-form1">
+                    <input type="radio" id="direct-debit-radio" name="payment-method" class="payment-radio" value="direct">
+                    <label for="direct-debit-radio">
+                        <span class="outer"><span class="inner"></span></span>
+                        <span class="input-text">Female</span>
+                    </label>
+                </p>
+                <p id="input-radio-form2">
+                    <input type="radio" id="collect-on-delivery" name="payment-method" class="payment-radio" value="delivery">
+                    <label for="collect-on-delivery">
+                        <span class="outer"><span class="inner"></span></span>
+                        <span class="input-text">Male</span>
+                    </label>
+                </div>
+                
+            </div>
+        </div>
+        
+        <p id="form-1-title">Identification Document</p>
+        <div class="id-content">
+            <div class="doc-type required input-area">
+                <select required>
+                    <option value="">                                 
+                        Document Type
+                    </option>
+                    <option value="ID">                                 
+                        ID
+                    </option>
+                    <option value="passport">
+                        Passport
+                    </option>
+                    <option value="driving-license">
+                        Driving License
+                    </option>
+                </select>
+            </div>
+            <div class="doc-number required input-area">
+                <input type="number" id="doc-number" required class="input-form-1" placeholder="Document Number"  maxlength="9">
+            </div>
+            
+        </div>
+        <p id="form-1-title">bank data</p>
+        <div class="bd-count">
+            <div class="country-bd input-area">
+                <input type="text" id="country-bd" class="input-form-1" placeholder="Country"  maxlength="15">
+            </div>
+            <div class="iban input-area">
+                <input type="number" id="doc-number" class="input-form-1" placeholder="IBAN"  maxlength="34">
+            </div>
+            
+        </div>
+        <div class="join-sub-23">
+            <img src="img/icon/person-icon.svg" alt="person">
+            <input type="checkbox" id="sub-23">
+            <label for="checkbox"></label>
+            <div class="join-sub-23-text">
+                <p><b>I want to join Sub-23</b></p>
+                <p>With this solution, by joining the Direct Debit, you automatically pay 6€/month until you turn 23.</p>
+            </div>
+        </div>
+        <p class="required-fields">* Required Fields</p>
+
+        <div class="terms">
+            <input type="checkbox" id="terms" required name="Agree" value="Agree">
+            <label for="checkbox"></label><!--https://stackoverflow.com/questions/34388696/how-to-change-the-background-color-on-a-input-checkbox-with-css-->
+            <p>I've read and agree to the <a href="https://www.atleticodemadrid.com/atm/politica-de-privacidad#_ga=2.244835270.21447635.1611326395-1947022941.1610829537">terms and conditions.*</a></p>
+        </div>
+    </div>
+
+    <div class="prog-btns">
+        <div class="btns-progress-form-1">
+            <input id="continue" type="submit" value="CONTINUE">
+        </div>
+    </div>
+</form>
+
+</section>
+    <!-- PROGRESS BUTTONS -->
+
+    <!-- PROGRESS BUTTONS END -->
+
+</div>
+<!-- FOOTER -->
+<div class="footer">
+    <div class="footer-left">
+        <a href="https://twitter.com/atleti"><img src="img/icon/twitter.svg" alt="twitter"></a>
+        <a href="https://www.facebook.com/AtleticodeMadrid"><img src="img/icon/facebook.svg" alt="facebook"></a>
+        <a href="https://www.youtube.com/channel/UCuzKFwdh7z2GHcIOX_tXgxA"><img src="img/icon/youtube.svg" alt="youtube"></a>
+        <a href="https://www.instagram.com/atleticodemadrid/"><img src="img/icon/instagram.svg" alt="instagram"></a>
+        <a href="https://www.linkedin.com/company/atleticodemadrid/"><img src="img/icon/linkedin.svg" alt="linkedin"></a>
+        <a href="https://www.tiktok.com/@atleticodemadrid?"><img src="img/icon/tik-tok.svg" alt="tik-tok"></a>
+        <a href="https://en.atleticodemadrid.com/noticias/atletico-de-madrid-provides-an-innovative-whatsapp-assistant-to-the-fans"><img src="img/icon/whatsapp.svg" alt="whatsapp"></a>
+    </div>
+    <div class="footer-right">
+        <p>© Atlético de Madrid 2020. All rights reserved</p>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

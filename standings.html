@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlético de Madrid | Standings</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jlf5jgz.css">
+    <link rel="shortcut icon" type="image/png" href="img/atm-logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+<!-- NAVBAR -->
+    <nav>
+        <div class="navbar">
+            <ul class="nav-links">
+                <div id="nav-left">
+                    <li class="link-left active">
+                        <a href="#">First Team</a>
+                            <ul class="drop-menu">
+                                <div class="drop-width">
+                                    <li><a href="squad.html">Squad & Statistics</a></li>
+                                    <li><a href="standings.html">Standings</a></li>
+                                    <li><a href="calendar.html">Calendar</a></li>
+                                    <li><a href="photos.html">Photos</a></li>
+                                </div>
+                            </ul>
+                    </li>
+                    <li class="link-left">
+                        <a href="#">Academy</a>
+                        <ul class="drop-menu-1">
+                            <div class="drop-width">
+                                <li><a href="what-is-academy.html">What is the Academy?</a></li>
+                                <li><a href="#">International Training Projects</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                                
+                    <li class="link-left">
+                        <a href="news.html">News</a>
+                    </li>
+                </div>
+                <div id="nav-right">
+                    <li class="link-right">
+                        <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li class="link-right">
+                        <a href="fans.html">Fans</a>
+                    </li>
+                </div>
+            </ul>
+        </div>   
+        <div class="nav-logo">
+            <a href="index.html"><img src="img/atm-logo.svg" alt="logo""></a>
+        </div>
+    </nav>
+<!-- NAVBAR END -->
+
+<!-- SQUAD BANNER -->
+<div class="standbanner">
+    <p>Standings</p>
+    <img src="img/laliga.svg" alt="LaLiga Logo">
+</div>
+<div class="subtabs">
+    <div class="total subtabs-active" id="total-btn" onclick="totalFunction()">TOTAL</div>
+    <div class="home" id="home-btn" onclick="homeFunction()">HOME</div>
+    <div class="away" id="away-btn" onclick="awayFunction()">AWAY</div>
+</div>
+<section class="table-total" id="total">
+    <div class="stand-total">
+        <div class="stand-header">
+            <p class="stand-header-pos">POS</p>
+            <p class="stand-header-team">TEAM</p>
+            <p class="stand-header-m">M</p>
+            <p class="stand-header-w">W</p>
+            <p class="stand-header-d">D</p>
+            <p class="stand-header-l">L</p>
+            <p class="stand-header-gs">GS</p>
+            <p class="stand-header-gc">GC</p>
+            <p class="stand-header-gd">GD</p>
+            <p class="stand-header-pts">PTS</p>
+            <p class="stand-header-form">FORM</p>
+        </div>
+
+        
+        <div class="pos1">
+            <div class="prom-ucl"></div>
+            <div class="pos-number">
+                <p>1</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/atm-logo.svg" alt=""></div>
+            <div class="team-name"><p>Atlético Madrid</p></div>
+            <div class="m"><p><p>17</p></p></div>
+            <div class="w"><p>14</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>1</p></div>
+            <div class="gs"><p>33</p></div>
+            <div class="gc"><p>7</p></div>
+            <div class="gd"><p>26</p></div>
+            <div class="pts"><p>44</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos2">
+            <div class="prom-ucl"></div>
+            <div class="pos-number">
+                <p>2</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/RealMadrid.svg" alt="">
+            </div>
+            <div class="team-name"><p>Real Madrid</p></div>
+            <div class="m"><p>18</p></div>
+            <div class="w"><p>11</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>30</p></div>
+            <div class="gc"><p>15</p></div>
+            <div class="gd"><p>15</p></div>
+            <div class="pts"><p>37</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos3">
+            <div class="prom-ucl"></div>
+            <div class="pos-number">
+                <p>3</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/barcelona.svg" alt="">
+            </div>
+            <div class="team-name"><p>Barcelona</p></div>
+            <div class="m"><p>18</p></div>
+            <div class="w"><p>10</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>37</p></div>
+            <div class="gc"><p>17</p></div>
+            <div class="gd"><p>20</p></div>
+            <div class="pts"><p>34</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos4">
+            <div class="prom-ucl"></div>
+            <div class="pos-number">
+                <p>4</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/villarreal.svg" alt=""></div>
+            <div class="team-name"><p>Villarreal</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>8</p></div>
+            <div class="d"><p>9</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>28</p></div>
+            <div class="gc"><p>19</p></div>
+            <div class="gd"><p>11</p></div>
+            <div class="pts"><p>33</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos5">
+            <div class="prom-uel"></div>
+            <div class="pos-number">
+                <p>5</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/sevilla.svg" alt=""></div>
+            <div class="team-name"><p>Sevilla</p></div>
+            <div class="m"><p>18</p></div>
+            <div class="w"><p>10</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>23</p></div>
+            <div class="gc"><p>16</p></div>
+            <div class="gd"><p>7</p></div>
+            <div class="pts"><p>33</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos6">
+            <div class="qual-uel"></div>
+            <div class="pos-number">
+                <p>6</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/RealSociedad.svg" alt=""></div>
+            <div class="team-name"><p>Real Sociedad</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>8</p></div>
+            <div class="d"><p>6</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>29</p></div>
+            <div class="gc"><p>16</p></div>
+            <div class="gd"><p>13</p></div>
+            <div class="pts"><p>30</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos7">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>7</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/granada.svg" alt=""></div>
+            <div class="team-name"><p>Granada</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>8</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>7</p></div>
+            <div class="gs"><p>23</p></div>
+            <div class="gc"><p>31</p></div>
+            <div class="gd"><p>-8</p></div>
+            <div class="pts"><p>28</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos8">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>8</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/betis.svg" alt=""></div>
+            <div class="team-name"><p>Betis</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>8</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>9</p></div>
+            <div class="gs"><p>24</p></div>
+            <div class="gc"><p>32</p></div>
+            <div class="gd"><p>-8</p></div>
+            <div class="pts"><p>26</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos9">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>9</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Cadiz.svg" alt=""></div>
+            <div class="team-name"><p>Cadiz</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>6</p></div>
+            <div class="l"><p>7</p></div>
+            <div class="gs"><p>17</p></div>
+            <div class="gc"><p>24</p></div>
+            <div class="gd"><p>-7</p></div>
+            <div class="pts"><p>24</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos10">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>10</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/levante.svg" alt=""></div>
+            <div class="team-name"><p>Levante</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>8</p></div>
+            <div class="l"><p>6</p></div>
+            <div class="gs"><p>27</p></div>
+            <div class="gc"><p>28</p></div>
+            <div class="gd"><p>-1</p></div>
+            <div class="pts"><p>23</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos11">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>11</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/getafe.svg" alt=""></div>
+            <div class="team-name"><p>Getafe</p></div>
+            <div class="m"><p>18</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>7</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>18</p></div>
+            <div class="gd"><p>-2</p></div>
+            <div class="pts"><p>23</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos12">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>12</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/celtavigo.svg" alt=""></div>
+            <div class="team-name"><p>Celta Vigo</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>8</p></div>
+            <div class="gs"><p>23</p></div>
+            <div class="gc"><p>30</p></div>
+            <div class="gd"><p>-7</p></div>
+            <div class="pts"><p>23</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos13">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>13</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/athleticbilbao.svg" alt=""></div>
+            <div class="team-name"><p>Athletic Bilbao</p></div>
+            <div class="m"><p>18</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>9</p></div>
+            <div class="gs"><p>21</p></div>
+            <div class="gc"><p>22</p></div>
+            <div class="gd"><p>-1</p></div>
+            <div class="pts"><p>21</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos14">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>14</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valencia.svg" alt=""></div>
+            <div class="team-name"><p>Valencia</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>8</p></div>
+            <div class="l"><p>7</p></div>
+            <div class="gs"><p>25</p></div>
+            <div class="gc"><p>26</p></div>
+            <div class="gd"><p>-1</p></div>
+            <div class="pts"><p>20</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos15">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>15</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valladolid.svg" alt=""></div>
+            <div class="team-name"><p>Valladolid</p></div>
+            <div class="m"><p>20</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>8</p></div>
+            <div class="l"><p>8</p></div>
+            <div class="gs"><p>20</p></div>
+            <div class="gc"><p>29</p></div>
+            <div class="gd"><p>-9</p></div>
+            <div class="pts"><p>20</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos16">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>16</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/eibar.svg" alt=""></div>
+            <div class="team-name"><p>Eibar</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>7</p></div>
+            <div class="l"><p>8</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>20</p></div>
+            <div class="gd"><p>-4</p></div>
+            <div class="pts"><p>19</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos17">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>17</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/alaves.svg" alt=""></div>
+            <div class="team-name"><p>Alaves</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>6</p></div>
+            <div class="l"><p>9</p></div>
+            <div class="gs"><p>17</p></div>
+            <div class="gc"><p>25</p></div>
+            <div class="gd"><p>-8</p></div>
+            <div class="pts"><p>18</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos18">
+            <div class="relegation"></div>
+            <div class="pos-number">
+                <p>18</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/elche.svg" alt=""></div>
+            <div class="team-name"><p>Elche</p></div>
+            <div class="m"><p>17</p></div>
+            <div class="w"><p>3</p></div>
+            <div class="d"><p>8</p></div>
+            <div class="l"><p>6</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>23</p></div>
+            <div class="gd"><p>-7</p></div>
+            <div class="pts"><p>17</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        
+        <div class="pos19">
+            <div class="relegation"></div>
+            <div class="pos-number">
+                <p>19</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Osasuna.svg" alt=""></div>
+            <div class="team-name"><p>Osasuna</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>3</p></div>
+            <div class="d"><p>7</p></div>
+            <div class="l"><p>9</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>28</p></div>
+            <div class="gd"><p>-12</p></div>
+            <div class="pts"><p>16</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos20">
+            <div class="relegation"></div>
+            <div class="pos-number">
+                <p>20</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/huesca.svg" alt=""></div>
+            <div class="team-name"><p>Huesca</p></div>
+            <div class="m"><p>19</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>9</p></div>
+            <div class="l"><p>9</p></div>
+            <div class="gs"><p>14</p></div>
+            <div class="gc"><p>29</p></div>
+            <div class="gd"><p>-15</p></div>
+            <div class="pts"><p>12</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="ucl">
+            <div class="ucl-square"></div>
+            <p>Promotion - Champions League (Group Stage)</p>
+        </div>
+        <div class="uel">
+            <div class="uel-square"></div>
+            <p>Promotion - Europa League (Group Stage)</p>
+        </div>
+        <div class="qual">
+            <div class="qual-square"></div>
+            <p>Promotion - Europa Conference League (Qualification)</p>
+        </div>
+        <div class="rel">
+            <div class="rel-square"></div>
+            <p>Relegation - LaLiga2</p>
+        </div>
+    </div>
+</section>
+<section class="table-home hide" id="home" >
+    <div class="stand-total">
+        <div class="stand-header">
+            <p class="stand-header-pos">POS</p>
+            <p class="stand-header-team">TEAM</p>
+            <p class="stand-header-m">M</p>
+            <p class="stand-header-w">W</p>
+            <p class="stand-header-d">D</p>
+            <p class="stand-header-l">L</p>
+            <p class="stand-header-gs">GS</p>
+            <p class="stand-header-gc">GC</p>
+            <p class="stand-header-gd">GD</p>
+            <p class="stand-header-pts">PTS</p>
+            <p class="stand-header-form">FORM</p>
+        </div>
+        <div class="pos1">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>1</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/atm-logo.svg" alt=""></div>
+            <div class="team-name"><p>Atlético Madrid</p></div>
+            <div class="m"><p><p>9</p></p></div>
+            <div class="w"><p>8</p></div>
+            <div class="d"><p>1</p></div>
+            <div class="l"><p>0</p></div>
+            <div class="gs"><p>21</p></div>
+            <div class="gc"><p>2</p></div>
+            <div class="gd"><p>19</p></div>
+            <div class="pts"><p>25</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos2">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>2</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/villarreal.svg" alt="">
+            </div>
+            <div class="team-name"><p>Villarreal</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>0</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>9</p></div>
+            <div class="gd"><p>7</p></div>
+            <div class="pts"><p>20</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos3">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>3</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/granada.svg" alt="">
+            </div>
+            <div class="team-name"><p>Granada</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>13</p></div>
+            <div class="gd"><p>3</p></div>
+            <div class="pts"><p>20</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos4">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>4</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/barcelona.svg" alt=""></div>
+            <div class="team-name"><p>Barcelona</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>1</p></div>
+            <div class="gs"><p>21</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>11</p></div>
+            <div class="pts"><p>18</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos5">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>5</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/RealMadrid.svg" alt=""></div>
+            <div class="team-name"><p>Real Madrid</p></div>
+            <div class="m"><p>8</p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>0</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>15</p></div>
+            <div class="gc"><p>5</p></div>
+            <div class="gd"><p>10</p></div>
+            <div class="pts"><p>18</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos6">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>6</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/sevilla.svg" alt=""></div>
+            <div class="team-name"><p>Sevilla</p></div>
+            <div class="m"><p>8</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>1</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>7</p></div>
+            <div class="gd"><p>5</p></div>
+            <div class="pts"><p>16</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos7">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>7</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/levante.svg" alt=""></div>
+            <div class="team-name"><p>Levante</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>1</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>12</p></div>
+            <div class="gd"><p>4</p></div>
+            <div class="pts"><p>16</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos8">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>8</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/athleticbilbao.svg" alt=""></div>
+            <div class="team-name"><p>Athletic Bilbao</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>0</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>13</p></div>
+            <div class="gc"><p>8</p></div>
+            <div class="gd"><p>5</p></div>
+            <div class="pts"><p>15</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos9">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>9</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/celtavigo.svg" alt=""></div>
+            <div class="team-name"><p>Celta Vigo</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>0</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>14</p></div>
+            <div class="gc"><p>16</p></div>
+            <div class="gd"><p>-2</p></div>
+            <div class="pts"><p>15</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos10">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>10</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/getafe.svg" alt=""></div>
+            <div class="team-name"><p>Getafe</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>9</p></div>
+            <div class="gc"><p>8</p></div>
+            <div class="gd"><p>1</p></div>
+            <div class="pts"><p>14</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos11">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>11</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/betis.svg" alt=""></div>
+            <div class="team-name"><p>Betis</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>12</p></div>
+            <div class="gd"><p>0</p></div>
+            <div class="pts"><p>14</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos12">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>12</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/RealSociedad.svg" alt=""></div>
+            <div class="team-name"><p>Real Sociedad</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>3</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>7</p></div>
+            <div class="gd"><p>5</p></div>
+            <div class="pts"><p>13</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos13">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>13</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valencia.svg" alt=""></div>
+            <div class="team-name"><p>Valencia</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>15</p></div>
+            <div class="gc"><p>14</p></div>
+            <div class="gd"><p>1</p></div>
+            <div class="pts"><p>11</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos14">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>14</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/alaves.svg" alt=""></div>
+            <div class="team-name"><p>Alaves/p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>11</p></div>
+            <div class="gd"><p>-3</p></div>
+            <div class="pts"><p>10</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos15">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>15</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Cadiz.svg" alt=""></div>
+            <div class="team-name"><p>Cadiz</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>9</p></div>
+            <div class="gc"><p>13</p></div>
+            <div class="gd"><p>-4</p></div>
+            <div class="pts"><p>10</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos16">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>16</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valladolid.svg" alt=""></div>
+            <div class="team-name"><p>Valladolid</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>11</p></div>
+            <div class="gc"><p>16</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>10</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos17">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>17</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Osasuna.svg" alt=""></div>
+            <div class="team-name"><p>Osasuna</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>13</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>9</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos18">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>18</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/elche.svg" alt=""></div>
+            <div class="team-name"><p>Elche</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>13</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>8</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        
+        <div class="pos19">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>19</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Eibar.svg" alt=""></div>
+            <div class="team-name"><p>Eibar</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>5</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>7</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos20">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>20</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/huesca.svg" alt=""></div>
+            <div class="team-name"><p>Huesca</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>94/p></div>
+            <div class="gs"><p>5</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>7</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="ucl">
+            <div class="ucl-square"></div>
+            <p>Promotion - Champions League (Group Stage)</p>
+        </div>
+        <div class="uel">
+            <div class="uel-square"></div>
+            <p>Promotion - Europa League (Group Stage)</p>
+        </div>
+        <div class="qual">
+            <div class="qual-square"></div>
+            <p>Promotion - Europa Conference League (Qualification)</p>
+        </div>
+        <div class="rel">
+            <div class="rel-square"></div>
+            <p>Relegation - LaLiga2</p>
+        </div>
+    </div>
+</section>
+<section class="table-away hide" id="away">
+    <div class="stand-total">
+        <div class="stand-header">
+            <p class="stand-header-pos">POS</p>
+            <p class="stand-header-team">TEAM</p>
+            <p class="stand-header-m">M</p>
+            <p class="stand-header-w">W</p>
+            <p class="stand-header-d">D</p>
+            <p class="stand-header-l">L</p>
+            <p class="stand-header-gs">GS</p>
+            <p class="stand-header-gc">GC</p>
+            <p class="stand-header-gd">GD</p>
+            <p class="stand-header-pts">PTS</p>
+            <p class="stand-header-form">FORM</p>
+        </div>
+
+        <div class="pos1">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>1</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/atm-logo.svg" alt=""></div>
+            <div class="team-name"><p>Atlético Madrid</p></div>
+            <div class="m"><p><p>8</p></p></div>
+            <div class="w"><p>6</p></div>
+            <div class="d"><p>1</p></div>
+            <div class="l"><p>1</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>5</p></div>
+            <div class="gd"><p>7</p></div>
+            <div class="pts"><p>19</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos2">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>2</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/RealMadrid.svg" alt="">
+            </div>
+            <div class="team-name"><p>Real Madrid</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>1</p></div>
+            <div class="gs"><p>15</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>5</p></div>
+            <div class="pts"><p>19</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos3">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>3</p>
+            </div>
+            <div class="pos-separation">
+                <img src="img/table-sep.svg" alt="">
+            </div>
+            <div class="team-icon">
+                <img src="img/RealSociedad.svg" alt="">
+            </div>
+            <div class="team-name"><p>Real Sociedad</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>17</p></div>
+            <div class="gc"><p>9</p></div>
+            <div class="gd"><p>8</p></div>
+            <div class="pts"><p>17</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos4">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>4</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/sevilla.svg" alt=""></div>
+            <div class="team-name"><p>Sevilla</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>11</p></div>
+            <div class="gc"><p>9</p></div>
+            <div class="gd"><p>2</p></div>
+            <div class="pts"><p>17</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos5">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>5</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/barcelona.svg" alt=""></div>
+            <div class="team-name"><p>Barcelona</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>5</p></div>
+            <div class="d"><p>1</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>16</p></div>
+            <div class="gc"><p>7</p></div>
+            <div class="gd"><p>9</p></div>
+            <div class="pts"><p>16</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos6">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>6</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Cadiz.svg" alt=""></div>
+            <div class="team-name"><p>Cadiz</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>11</p></div>
+            <div class="gd"><p>-3</p></div>
+            <div class="pts"><p>14</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos7">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>7</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/villarreal.svg" alt=""></div>
+            <div class="team-name"><p>Villarreal</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>3</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>2</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>2</p></div>
+            <div class="pts"><p>13</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos8">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>8</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Eibar.svg" alt=""></div>
+            <div class="team-name"><p>Eibar</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>3</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>11</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>1</p></div>
+            <div class="pts"><p>12</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos9">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>9</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/betis.svg" alt=""></div>
+            <div class="team-name"><p>Betis</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>4</p></div>
+            <div class="d"><p>0</p></div>
+            <div class="l"><p>6</p></div>
+            <div class="gs"><p>12</p></div>
+            <div class="gc"><p>20</p></div>
+            <div class="gd"><p>-8</p></div>
+            <div class="pts"><p>12</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos10">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>10</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valladolid.svg" alt=""></div>
+            <div class="team-name"><p>Valladolid</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>9</p></div>
+            <div class="gc"><p>13</p></div>
+            <div class="gd"><p>-4</p></div>
+            <div class="pts"><p>10</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos11">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>11</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/valencia.svg" alt=""></div>
+            <div class="team-name"><p>Valencia</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>10</p></div>
+            <div class="gc"><p>12</p></div>
+            <div class="gd"><p>-2</p></div>
+            <div class="pts"><p>9</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos12">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>12</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/elche.svg" alt=""></div>
+            <div class="team-name"><p>Elche</p></div>
+            <div class="m"><p>8</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>-2</p></div>
+            <div class="pts"><p>9</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos13">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>13</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/getafe.svg" alt=""></div>
+            <div class="team-name"><p>Getafe</p></div>
+            <div class="m"><p>8</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>3</p></div>
+            <div class="gs"><p>7</p></div>
+            <div class="gc"><p>10</p></div>
+            <div class="gd"><p>-3</p></div>
+            <div class="pts"><p>9</p></div>
+            <div class="r1">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos14">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>14</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/alaves.svg" alt=""></div>
+            <div class="team-name"><p>Alaves</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>9</p></div>
+            <div class="gc"><p>14</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>8</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="w-square"><p>W</p></div>
+            </div>
+        </div>
+        <div class="pos15">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>15</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/celtavigo.svg" alt=""></div>
+            <div class="team-name"><p>Celta Vigo</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>4</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>14</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>8</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos16">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>16</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/granada.svg" alt=""></div>
+            <div class="team-name"><p>Granada</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>2</p></div>
+            <div class="d"><p>2</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>7</p></div>
+            <div class="gc"><p>18</p></div>
+            <div class="gd"><p>-11</p></div>
+            <div class="pts"><p>8</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="w-square"><p>W</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos17">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>17</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/levante.svg" alt=""></div>
+            <div class="team-name"><p>Levante</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>11</p></div>
+            <div class="gc"><p>16</p></div>
+            <div class="gd"><p>-5</p></div>
+            <div class="pts"><p>7</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+        <div class="pos18">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>18</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/Osasuna.svg" alt=""></div>
+            <div class="team-name"><p>Osasuna</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>4</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>15</p></div>
+            <div class="gd"><p>-7</p></div>
+            <div class="pts"><p>7</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        
+        <div class="pos19">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>19</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/athleticbilbao.svg" alt=""></div>
+            <div class="team-name"><p>Athletic Bilbao</p></div>
+            <div class="m"><p>9</p></div>
+            <div class="w"><p>1</p></div>
+            <div class="d"><p>3</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>8</p></div>
+            <div class="gc"><p>14</p></div>
+            <div class="gd"><p>-6</p></div>
+            <div class="pts"><p>6</p></div>
+            <div class="r1">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="l-square"><p>L</p></div>
+            </div>
+        </div>
+        <div class="pos20">
+            <div class="midtable"></div>
+            <div class="pos-number">
+                <p>20</p>
+            </div>
+            <div class="pos-separation"><img src="img/table-sep.svg" alt=""></div>
+            <div class="team-icon"><img src="img/huesca.svg" alt=""></div>
+            <div class="team-name"><p>Huesca</p></div>
+            <div class="m"><p>10</p></div>
+            <div class="w"><p>0</p></div>
+            <div class="d"><p>5</p></div>
+            <div class="l"><p>5</p></div>
+            <div class="gs"><p>9</p></div>
+            <div class="gc"><p>19</p></div>
+            <div class="gd"><p>-10</p></div>
+            <div class="pts"><p>5</p></div>
+            <div class="r1">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r2">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r3">
+                <div class="l-square"><p>L</p></div>
+            </div>
+            <div class="r4">
+                <div class="d-square"><p>D</p></div>
+            </div>
+            <div class="r5">
+                <div class="d-square"><p>D</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="ucl">
+            <div class="ucl-square"></div>
+            <p>Promotion - Champions League (Group Stage)</p>
+        </div>
+        <div class="uel">
+            <div class="uel-square"></div>
+            <p>Promotion - Europa League (Group Stage)</p>
+        </div>
+        <div class="qual">
+            <div class="qual-square"></div>
+            <p>Promotion - Europa Conference League (Qualification)</p>
+        </div>
+        <div class="rel">
+            <div class="rel-square"></div>
+            <p>Relegation - LaLiga2</p>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<div class="footer">    
+    <div class="footer-left">
+        <a href="https://twitter.com/atleti"><img src="img/icon/twitter.svg" alt="twitter"></a>
+        <a href="https://www.facebook.com/AtleticodeMadrid"><img src="img/icon/facebook.svg" alt="facebook"></a>
+        <a href="https://www.youtube.com/channel/UCuzKFwdh7z2GHcIOX_tXgxA"><img src="img/icon/youtube.svg" alt="youtube"></a>
+        <a href="https://www.instagram.com/atleticodemadrid/"><img src="img/icon/instagram.svg" alt="instagram"></a>
+        <a href="https://www.linkedin.com/company/atleticodemadrid/"><img src="img/icon/linkedin.svg" alt="linkedin"></a>
+        <a href="https://www.tiktok.com/@atleticodemadrid?"><img src="img/icon/tik-tok.svg" alt="tik-tok"></a>
+        <a href="https://en.atleticodemadrid.com/noticias/atletico-de-madrid-provides-an-innovative-whatsapp-assistant-to-the-fans"><img src="img/icon/whatsapp.svg" alt="whatsapp"></a>
+    </div>
+    <div class="footer-right">
+        <p>© Atlético de Madrid 2020. All rights reserved</p>
+    </div>
+</div>
+<script src="app.js"></script>    
+</body>
+</html>
